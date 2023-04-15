@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Milkshake Shop</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-image: linear-gradient(to bottom right, #00bfff, #1e90ff);
+			border-top: 5px solid #00ffd0;
+			border-bottom: 5px solid #00ffd0;
+			padding: 20px;
+			text-align: center;
+		}
+		h1 {
+			font-size: 50px;
+			margin-bottom: 0;
+			color:white;
+		}
+		main {
+			background-color:white;
+			height:auto;
+			display:flex;
+			flex-wrap:wrap;
+			align-items:center;
+			justify-content:center;
+			padding-top:50px;
+			padding-bottom:50px;
+		}
+		h2 {
+			font-size: 40px;
+			color:#1e90ff;
+			text-shadow: 2px 2px #00000050;
+		}
+        .about {
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+        .menu{
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            align-items:center;
+            margin-top:50px;
+        }
+        .menu-item{
+            width:300px;
+            height:auto;
+            margin-right:20px;
+            margin-bottom:20px; 
+            border-radius:10px; 
+            box-shadow:-5px -5px 10px rgba(255,255,255,0.5), 
+                        5px 5px 10px rgba(0,0,0,0.1);
+        }
+        .menu-item img{
+            width:100%;
+            height:auto; 
+            border-radius:10px 10px 0 0; 
+        }
+        .menu-item h3{
+            font-size:24px; 
+            color:#1e90ff; 
+            margin-left:20px; 
+        }
+        .menu-item p{
+            font-size:16px; 
+            color:#696969; 
+            margin-left:20px; 
+        }
+        footer{
+            background-color:#f8f8f8; 
+            padding-top:20px; 
+            padding-bottom:20px; 
+            text-align:center; 
+        }
+        footer p{
+            font-size:14px; 
+            color:#696969; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Milkshake Shop</h1>
+    </header>
+    <div class="about">
+        <nav>
+            <ul>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h2>Best Milkshakes in Town!</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <img src="chocolate-milkshake-8.jpg" alt="Chocolate Milkshake">
+                <h3>Chocolate Milkshake</h3>
+                <p>Our classic chocolate milkshake made with real chocolate syrup.</p>
+            </div>
+            <div class="menu-item">
+                <img src="DSC_1847.jpg" alt="Strawberry Milkshake">
+                <h3>Strawberry Milkshake</h3>
+                <p>Our classic vanilla milkshake made with real Strawberry extract.</p>
+            </div>
+            <div class="menu-item">
+                <img src="How-to-Make-a-Milkshake-10-of-10.jpg" alt="Vanilla Milkshake">
+                <h3>Vanilla Milkshake</h3>
+                <p>Our classic vanilla milkshake made with real vanilla extract.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;2023 Milkshake Shop</p>
+    </footer>
+    
+    </body>
+    </html>
